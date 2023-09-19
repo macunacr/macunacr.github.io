@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Montserrat:wght@200;300&family=Mulish&family=Roboto:ital,wght@1,300&display=swap");
+/*voy a declarar variables de colores*/
+:root {
+  --colorceleste1: #2f8ec5;
+  --colorceleste2: #668ab8;
+  --colorazul: #0d3050;
+  --colorbeigeoscuro: #cbc0ba;
+  --colorbeigemedio: #ddd4d3d7;
+  --colorbeigeclaro: #f4ebef;
+  --colorrojorosado: #a0344e;
+    --colorrosado: #d7909b;
+    --colorverdeclaro: #c8d7ca;
+    --colorverdeoscuro: #8cac90;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+/*secciones*/
+
+.sectionhero {
+  background-image: url("../imgservicios/laboratorio2.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 34.375rem;
+}
+
+.sectionhero .boxcontent h1 {
+  font-size: 4.0625rem;
+  font-weight: 800;
+  margin-bottom: 1.875rem;
+  color: var(--colorazul);
+  margin-top: 10%;
+  letter-spacing: 0.125rem;
+  padding-bottom: 5%;
+}
+
+.sectionhero .boxcontent a {
+  text-align: center;
+  padding: 0.9375rem 1.875rem;
+  background-color: var(--colorbeigeclaro);
+  border: 0.0625rem solid #fff;
+  border-radius: 0.3125rem;
+  font-size: 1.25rem;
+  color: var(--colorceleste1);
+  text-decoration: none;
+}
+
+.sectionhero .boxcontent a:hover {
+  background-color: var(--colorbeigeoscuro);
+  color: #fff;
+}
+.sectionhero .boxcontent a:hover .icon {
+  background-color: var(--colorceleste1);
+  border-radius: 3.125rem;
+  padding: 0.3125rem;
+  color: #fff;
+  margin-left: 0.625rem;
+  transform: rotate(90deg);
+  transition: 0.9s ease-in-out;
+}
+
+.sectionhero .boxcontent .icon {
+  background-color: var(--colorbeigeoscuro);
+  border-radius: 3.125rem;
+  padding: 0.3125rem;
+  color: var(--colorceleste1);
+  margin-left: 0.625rem;
+}
+
+.section1 {
+  background-color: #ddd4d3d7;
+}
+.nav-link {
+  color: var(--colorceleste1);
+  font-size: 1.25rem;
+}
+.section2 h1 {
+  color: var(--colorazul);
+  text-align: center;
+  margin: 1.25rem 1.25rem;
+  padding-top: 5%;
+  font-weight: 37.5rem;
+}
+
+.section2 p {
+  font-size: 1.25rem;
+  text-align: center;
+  margin: 1.25rem 1.25rem;
+  padding-bottom: 5%;
+}
+
+.sectionCarousel {
+   height: 100vh;
+}
+
+.sectionCarousel .carousel,
+.sectionCarousel .carousel-inner,
+.sectionCarousel .carousel-item,
+.sectionCarousel .carousel-item::before {
+  position:sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%
+}
+
+.sectionCarousel .carousel-item:nth-child(1) {
+  background-image: url("../img/laboratorio1.jpg");
+  opacity: 0.5;
+}
+.sectionCarousel .carousel-item:nth-child(2) {
+  background-image: url("../img/laboratorio8.jpg");
+}
+
+.sectionCarousel .carousel-item:nth-child(3) {
+  background-image: url("../img/laboratorio4.jpg");
+}
+.sectionCarousel .carousel-item:nth-child(4) {
+  background-image: url("../img/laboratorio3.jpg");
+}
+.sectionCarousel .carousel-item:nth-child(5) {
+  background-image: url("../img/laboratorio5.jpg");
+}
+.sectionCarousel .carousel-item:nth-child(6) {
+  background-image: url("../img/laboratorio6.jpg");
+}
+.sectionCarousel .carousel-item:nth-child(7) {
+  background-image: url("../img/laboratorio7.jpg");
+}
+.sectionCarousel .carousel-item:nth-child(8) {
+  background-image: url("../img/laboratorio9.jpg");
+}
+
+.sectionCarousel .carousel-item {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  box-shadow: inset 0 0 0 125rem rgba(0, 0, 0, 0);
+  height: 100%;
+}
+.sectionCarousel .container {
+  text-align: center;
+  padding: 1.875rem 0;
+  margin-bottom: 6.25rem;
+ margin-top: 1.25rem;
+ background: rgba(255, 255, 255, 0.598); /*aqui en lugar de poner opacity, pongo un color con opacidad porque la opacity me opaca el texto tambien*/
+}
+
+.sectionCarousel h2 {
+  color: var(--colorceleste2);
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+.sectionCarousel .line {
+  border: 0.125rem solid var(--colorbeigeoscuro);
+  width: 55%;
+  border-radius: 1.25rem;
+  margin: 0 auto;
+}
+
+.sectionCarousel p {
+  padding: 0.625rem 0;
+  white-space: pre-line; /*esto respeta los saltos de lineas que le digamos en el html*/
+  line-height: 1.6875rem;
+  color: #000;
+}
+
+
+.sectionCarousel .carousel-inner .active {
+  opacity: 0;
+}
+.sectionCarousel .carousel-inner .active {
+  opacity: 1;
+  transition: 0.3s;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1;
+}
+.sectionCarousel .carousel-control-next-icon,
+.sectionCarousel .carousel-control-prev-icon {
+  font-size: 2.1875rem;
+  background: var(--colorceleste1);
+  border-radius: 1.875rem;
+  transition: 0.3s;
+  color: #fff;
+  width: 3.4375rem;
+  height: 3.4375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionCarousel .carousel-control-next-icon:hover,
+.sectionCarousel .carousel-control-prev-icon:hover {
+  background: var(--colorbeigeclaro);
+  color: #1c1c1c;
+}
+
+.sectionCarousel .carousel-indicators button {
+  cursor: pointer;
+  border: 0;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 3.125rem;
+  transition: 0.3s;
+}
+.sectionCarousel .carousel-indicators button.active {
+  background: var(--colorceleste1);
+}
+
+.sectioncontacto {
+  background-color: var(--colorbeigeclaro);
+  padding-top: 0.625rem;
+}
+.sectioncontacto h2 {
+  color: var(--colorceleste1);
+}
+.sectioncontacto .boton {
+  background-color: var(--colorceleste2);
+  padding: 0.9375rem 1.875rem;
+  border: 0.0625rem solid #fff;
+  border-radius: 3.125rem;
+  font-size: 1.25rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.sectioncontacto a:hover {
+  background-color: #ddd4d3d7;
+  border-radius: 3.125rem;
+  padding: 0.9375rem 1.875rem;
+  color: var(--colorceleste1);
+  margin-left: 0.625rem;
+  transform: rotate(90deg);
+  transition: 0.5s ease-in-out;
+}
+
+/*whatsapp*/
+.whatsapp {
+  position: fixed;
+  bottom: 0.0675rem;
+  left: 1rem;
+  width: 3.625rem;
+  height: 6.3125rem;
+}
+
+.botonScrollTop {
+
+  position: fixed;
+  height: 2.8125rem;
+  width: 2.625rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  text-align: center;
+  line-height: 2.8125rem;
+  color: #fff;
+  font-size: 1.5625rem;
+  border-radius: 0.3125rem;
+  background-color: var(--colorceleste1);
+}
+
+footer {
+  background-color: #000;
+}
+footer p {
+  color: #ddd4d3d7;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding-top: 0.9375rem;
+  padding-bottom: 1.5625rem;
+}
+footer h3 {
+  letter-spacing: 0.75rem;
+}
+
+/* Medias Queries*/
+@media (min-width: 320px) and (max-width: 480px) {
+ 
+    .sectionhero .boxcontent h1 {
+      font-size: 3.125rem;
+  margin-top: 4.375rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+}

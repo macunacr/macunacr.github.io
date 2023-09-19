@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Montserrat:wght@200;300&family=Mulish&family=Roboto:ital,wght@1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+
+
+
+/*secciones*/
+.sectionVideo {
+  position: relative;
+    height: 90vh;
+
+  overflow: hidden;
+}
+
+.sectionVideo .boxContent {
+   position: relative;
+  color: #fff;
+  text-align: center;
+  padding-top: 20%;
+}
+
+.sectionVideo video {
+   position: absolute;
+   top: 50%;
+  left: 50%;
+   min-width: 100%;
+  min-height: 100%;
+   transform: translateX(-50%) translateY(-50%);
+  filter: brightness(0.5);
+}
+.sectionVideo .boxContent h1 {
+  font-size: 4,0625rem;
+  font-weight: 700;
+  margin-bottom: 1,875rem;
+  color: #c8d7ca;
+}
+
+.sectionVideo .boxContent h2 {
+  font-size: 2.8125rem;
+  font-weight: 700;
+  margin-bottom: 1.875rem;
+  color: #ddd4d3;
+}
+
+/*Boton de la seccion video*/
+
+.sectionVideo .boxContent a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  border-radius: 0.3125rem;
+  text-decoration: none;
+  border: 0.125rem solid #fff;
+  color: #fff;
+   transition: 0.8s ease-in-out;
+}
+.sectionVideo .boxContent a:hover {
+  color: #a0344e;
+  border: 0;
+  background-color: #ddd4d3d7;
+}
+.sectionVideo .boxContent a:hover .icon {
+  color: rgb(238, 232, 232);
+  transform: rotate(90deg);
+}
+.sectionVideo .boxContent .icon {
+  color: #c8d7ca;
+   transition: 0.9s ease-in-out;
+  margin: 0 0 0 0.3125rem;
+}
+
+
+.section1 {
+  background-color: #ddd4d3d7;
+}
+.nav-link {
+  color: #a0344e;
+  font-size: 1.25rem;
+}
+
+.section2 .p {
+  padding-top: 1.5625rem;
+}
+
+/*  Boton section2 */
+.section2 .row a {
+  font-size: 0.9375rem;
+  font-weight: 300;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.3125rem;
+  text-decoration: none;
+  border: 0.0625rem solid #d7909b;
+  color: #8cac90;
+    transition: 0.8s ease-in-out;
+  text-align: center;
+}
+.section2 .row a:hover {
+  color: #a0344e;
+  border: 0;
+  background-color: #ddd4d3d7;
+}
+.section2 .row a:hover .icon {
+  color: #d7909b;
+  transform: rotate(90deg);
+}
+.section2 .row .icon {
+  color: #c8d7ca;
+  transition: 0.9s ease-in-out;
+  margin: 0 0 0 0.3125rem;
+}
+.section2 h2 {
+  color: #a0344e;
+  font-size: 2.1875rem;
+}
+
+.section2 .row h5 {
+  font-size: 1.5625rem;
+  text-align: center;
+}
+
+.seccion3 {
+  background-image: url("../img/banner.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 15.625rem;
+}
+.seccion3 h2 {
+  color: #a0344e;
+  font-weight: bold;
+  font-size: 3.4375rem;
+  padding-top: 2,8125rem;
+  font-weight: 600;
+}
+
+.section4 h2 {
+  padding-bottom: 0.625rem;
+  font-size: 2.1875rem;
+  color: #a0344e;
+}
+.section4 h3 {
+  padding-bottom: 0.625rem;
+  font-size: 1.5625rem;
+}
+
+.section4 hr {
+  color: #a0344e;
+}
+
+.section4 .row p {
+  margin-bottom: 2.5rem;
+  text-align: justify;
+}
+
+/*Botones section4*/
+
+.section4 .row a {
+  background-color: #8cac90;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.9375rem;
+  border-radius: 0.3125rem;
+  margin-top: 0.9375rem;
+  transition: 0.8s ease-out;
+
+}
+
+.section4 .row .icon {
+margin-left: 0.625rem;
+font-size: 2.5rem;
+color: #fff;
+}
+
+.section4 .row a:hover
+ {
+  color: #a0344e;
+  border: 0;
+  background-color: #ddd4d3d7;
+
+}
+
+/*  seccion 5*/
+
+.section5 {
+  background-color: #000;
+}
+.fondo1 {
+  background-color: #ebe9e9d7;
+}
+
+.sectionheroservicios {
+  background-color: #ddd4d3;
+}
+
+/*Formulario*/
+.formulario {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: #ebe9e9d7;
+}
+.formulario h2 {
+  color: #a0344e;
+  font-size: 2.1875rem;
+}
+ 
+.formulario .boton .borrar {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.3125rem;
+  text-decoration: none;
+  border: 0.0625rem solid #d7909b;
+  color: #8cac90;
+  transition: 0.8s ease-in-out;
+  text-align: center;
+  margin-right: 2.1875rem;
+}
+
+.formulario .boton a:hover .borrar {
+  color: #a0344e;
+  border: 0;
+  background-color: #ddd4d3d7;
+}
+
+.formulario .boton .enviar  {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.3125rem;
+  text-decoration: none;
+  border: 0.0625rem solid #d7909b;
+  color: #8cac90;
+   transition: 0.8s ease-in-out;
+  text-align: center;
+  margin-right: 2.1875rem;
+}
+
+.formulario .boton a:hover .enviar {
+  color: #a0344e;
+  border: 0;
+  background-color: #ddd4d3d7;
+}
+
+
+
+/*whatsapp*/
+.whatsapp {
+  position: fixed;
+  bottom: 0.0675rem;
+  left: 1rem;
+  width: 3.625rem;
+  height: 6.3125rem;
+}
+
+/*Boton Scrolltop*/
+.botonScrollTop {
+
+  position: fixed;
+  height: 2.8125rem;
+  width: 2.625rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  text-align: center;
+  line-height: 2.8125rem;
+  color: #fff;
+  font-size: 1.5625rem;
+  border-radius: 0.5rem;
+  background-color: #a0344e;
+}
+
+
+
+footer {
+  background-color: #000;
+}
+footer p {
+  color: #ddd4d3d7;
+  font-size: 1,25rem;
+  font-weight: 500;
+  padding-top: 0.9375rem;
+}
+footer h3 {
+  letter-spacing: 0.75rem;
+}
+.fa-3x {
+  font-size: 3em;
+}
+
+
+/* Medias Queries*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .seccion3 h2 {
+    font-size: 2.5rem;
+  white-space: pre-line;
+  }
+}

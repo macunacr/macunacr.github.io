@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Montserrat:wght@200;300&family=Mulish&family=Roboto:ital,wght@1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/*secciones*/
+
+.sectionhero {
+  background-image: url("../imgservicios/banner2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 34.375rem;
+}
+
+.sectionhero .boxcontent h1 {
+  font-size: 4.0625rem;
+  font-weight: 800;
+  margin-bottom: 1.875rem;
+  color: #8cac90;
+  margin-top: 15%;
+  letter-spacing: 0.125rem;
+  padding-bottom: 5%;
+  margin-left: 40%;
+}
+
+/*Boton del hero*/
+.sectionhero .boxcontent a {
+  padding: 0.9375rem 1.875rem;
+  background-color: #c8d7ca;
+  border: 0.0625rem solid #fff;
+  border-radius: 0.3125rem;
+  font-size: 1.25rem;
+  color: #a0344e;
+  text-decoration: none;
+  margin-left: 32.5rem;
+}
+
+.sectionhero .boxcontent a:hover {
+  background-color: #d7909b;
+  color: #fff;
+}
+.sectionhero .boxcontent a:hover .icon {
+  background-color: #ddd4d3d7;
+  border-radius: 3.125rem;
+  padding: 0.3125rem;
+  color: #a0344e;
+  margin-left: 0.625rem;
+  transform: rotate(90deg);
+  transition: 0.9s ease-in-out;
+}
+
+.sectionhero .boxcontent .icon {
+  background-color: #d7909b;
+  border-radius: 3.125rem;
+  padding: 0.3125rem;
+  color: #fff;
+  margin-left: 0.625rem;
+}
+
+
+.section1 {
+  background-color: #ddd4d3d7;
+}
+.nav-link {
+  color: #a0344e;
+  font-size: 1.25rem;
+}
+
+
+.section2 p {
+  word-spacing: 0.0625rem;
+}
+.section2 h2 {
+  padding-top: 1.5625rem;
+  color: #a0344e;
+}
+
+.section2.row .sectioncards .sectioncardscaleb {
+  height: 100%;
+  float: left;
+  width: 100%;
+}
+
+.seccion3 h2 {
+  color: #a0344e;
+  font-weight: bold;
+  font-size: 2.8125rem;
+  padding-top: 2.8125rem;
+  font-weight: 600;
+  white-space: pre-line;
+}
+.seccion3 h5 {
+  color: #8cac90;
+  font-weight: bold;
+  font-size: 2.1875rem;
+  padding-top: 2.8125rem;
+  font-weight: 600;
+  white-space: pre-line;
+}
+.seccion3 .container  p{
+  text-align: justify;
+ }
+
+.section3 {
+  background-image: url("../imgservicios/banner6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 15.625rem;
+}
+
+.section3 h2 {
+  color: #a0344e;
+  font-weight: bold;
+  font-size: 2.8125rem;
+  padding-top: 2.8125rem;
+  font-weight: 600;
+  white-space: pre-line;
+}
+
+.section4 h2 {
+  padding-bottom: 0.625rem;
+  font-size: 2.1875rem;
+  color: #a0344e;
+}
+.section4 h3 {
+  padding-bottom: 0.625rem;
+  font-size: 1.5625rem;
+}
+
+.section4 hr {
+  color: #a0344e;
+}
+.section4 .container .row {
+  height: 100%;
+}
+.section4 .container .row p{
+ text-align: justify;
+}
+
+
+
+.section4 .row a {
+  background-color: #8cac90;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.9375rem;
+  border-radius: 0.3125rem;
+  margin-top: 0.9375rem;
+  transition: 0.8s ease-out;
+}
+
+.section4 .row .icon {
+  margin-left: 0.625rem;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.section4 .row a:hover {
+  color: #a0344e;
+  border: 0;
+  background-color: #ddd4d3d7;
+}
+
+
+/*Sectioncontacto*/
+.sectioncontacto .container .a .btn {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: #d7909b;
+  border: #a0344e;
+}
+
+.sectioncontacto h2 {
+  color: #a0344e;
+}
+
+.formulario .boton a:hover .enviar {
+  color: #a0344e;
+  border: 0;
+  background-color: #ddd4d3d7;
+}
+
+.section5 {
+  background-color: #f4f1f0;
+  padding-top: 0.625rem;
+}
+
+.section5 h2 {
+  color: #a0344e;
+ 
+}
+
+.section5 .boton {
+  background-color: #d7909b;
+  padding: 0.9375rem 1.875rem;
+  border: 0.0625rem solid #fff;
+  border-radius: 0.3125rem;
+  font-size: 1.25rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.section5  a:hover {
+  background-color: #ddd4d3d7;
+  border-radius: 3.125rem;
+  padding: 0.9375rem 1.875rem;
+  color: #a0344e;
+  margin-left: 0.625rem;
+  transform: rotate(90deg);
+  transition: 0.5s ease-in-out;
+
+}
+
+/*whatsapp*/
+.whatsapp {
+  position: fixed;
+  bottom: 0.0675rem;
+  left: 1rem;
+  width: 3.625rem;
+  height: 6.3125rem;
+}
+
+
+.botonScrollTop {
+  position: fixed;
+  height: 2.8125rem;
+  width: 2.625rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  text-align: center;
+  line-height: 2.8125rem;
+  color: #fff;
+  font-size: 1.5625rem;
+  border-radius: 0.8rem;
+  background-color: #a0344e;
+}
+footer {
+  background-color: #000;
+}
+footer p {
+  color: #ddd4d3d7;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding-top: 0.9375rem;
+}
+footer h3 {
+  letter-spacing: 0.75rem;
+}
+.fa-3x {
+  font-size: 3em;
+}
+
+
+/* Medias Queries*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .sectionhero .boxcontent h1 {
+    font-size: 2.5rem;
+  white-space: pre-line;
+  margin: 4.375rem 0;
+  }
+}
+.sectionhero .boxcontent a {
+margin-left: 1.25rem;
+}
+
+
+.seccion3 .container h2 {
+  font-size: 2.1875rem; 
+}
+.section3 .container h2 {
+  font-size: 1.875rem; 
+}
+
+@media (min-width: 768px) and (max-width: 1194px) {
+  .sectionhero .boxcontent h1 {
+    font-size: 3.75rem;
+  margin: 4.375rem 0;
+  }
+.section2 .container h2{
+  font-size: 2.1875rem; 
+}
+.section2 .container p{
+  font-size: 1.25rem; 
+  
+}
+.seccion3 .container .card {
+  height: 100%;
+}
+.seccion3 .container h5 {
+  font-size: 1.875rem;
+}
+.section3 .container h2 {
+  font-size: 2.5rem;
+  background: rgba(255, 255, 255, 0.586);
+  border-radius: 3.125rem; 
+}
+
+
+
+
+}
+@media (min-width: 800px) and (max-width: 1280px) {
+
+  .sectionhero .boxcontent a {
+    margin-left: 31.875rem;
+  }
+}

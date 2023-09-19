@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Montserrat:wght@200;300&family=Mulish&family=Roboto:ital,wght@1,300&display=swap");
+/*voy a declarar variables de colores*/
+:root {
+    --colorrojorosado: #a0344e;
+    --colorrosado: #d7909b;
+    --colorazul: #0d3050;
+    --colorbeigeclaro: #ddd4d3d7;
+    --colorverdeclaro: #c8d7ca;
+    --colorverdeoscuro: #8cac90;
+}
+
+* {
+    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.sectionhero {
+  background-image: url("../img/mujer-posando-albornoz-spa.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 34.375rem;
+}
+
+.sectionhero .boxcontent h1 {
+  font-size: 4.0625rem;
+  font-weight: 800;
+  margin-bottom: 1.875rem;
+  color: var(--colorrojorosado);
+  margin-top: 10%;
+  letter-spacing: 0.125rem;
+  padding-bottom: 5%;
+}
+
+.sectionhero .boxcontent a {
+  text-align: center;
+  padding: 0.9375rem 1.875rem;
+  background-color:var(--colorbeigeclaro);
+  border: 0.0625rem solid #fff;
+  border-radius: 0.3125rem;
+  font-size: 1.25rem;
+  color: var(--colorrojorosado);
+  text-decoration: none;
+}
+
+.sectionhero .boxcontent a:hover {
+ 
+  color: #fff;
+}
+.sectionhero .boxcontent a:hover .icon {
+  background-color: var(--colorrosado);
+  border-radius: 3.125rem;
+  padding: 0.3125rem;
+  color: #fff;
+  margin-left: 0.625rem;
+  transform: rotate(90deg);
+  transition: 0.9s ease-in-out;
+}
+
+.sectionhero .boxcontent .icon {
+  background-color: #f4f1f0;
+  border-radius: 3.125rem;
+  padding: 0.3125rem;
+
+  margin-left: 0.625rem;
+}
+
+.section1 {
+  background-color: #ddd4d3d7;
+}
+.nav-link {
+  color: #a0344e;
+  font-size: 1.25rem;
+}
+
+
+/*seccion 2 accordion FAQs*/
+.section2 {
+  color: var(--colorrojorosado);
+  margin-top: 2.5rem;
+  margin: auto;
+
+}
+.section2 h1 {
+  text-align: center;
+}
+.section2 .accordion-flush {
+  color: var(--colorrojorosado);
+}
+
+/*Section5 contacto*/
+.section5 .container .a .btn {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: #d7909b;
+  border: var(--colorrojorosado);
+}
+
+.section5 h2 {
+  color:var(--colorrojorosado);
+}
+
+
+.section5 {
+  background-color: #dee7e7;
+  padding-top: 0.625rem;
+}
+
+.section5 h2 {
+  color: var(--colorrojorosado);
+ 
+}
+
+.section5 .boton {
+  background-color:var(--colorverdeoscuro);
+  padding: 0.9375rem 1.875rem;
+  border: 0.0625rem solid #fff;
+  border-radius: 0.3125rem;
+  font-size: 1.25rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.section5  a:hover {
+  background-color: #ddd4d3d7;
+  border-radius: 3.125rem;
+  padding: 0.9375rem 1.875rem;
+  color: var(--colorceleste1);
+  margin-left: 0.625rem;
+  transform: rotate(90deg);
+  transition: 0.5s ease-in-out;
+
+}
+
+
+/*whatsapp*/
+.whatsapp {
+  position: fixed;
+  bottom: 0.0675rem;
+  left: 1rem;
+  width: 3.625rem;
+  height: 6.3125rem;
+}
+
+.botonScrollTop {
+  position: fixed;
+  height: 2.8125rem;
+  width: 2.625rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  text-align: center;
+  line-height: 2.8125rem;
+  color: #fff;
+  font-size: 1.5625rem;
+  border-radius: 0.3125rem;
+  background-color: var(--colorrojorosado);
+}
+
+footer {
+  background-color: #000;
+}
+footer p {
+  color: #ddd4d3d7;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding-top: 0.9375rem;
+  padding-bottom: 1.5625rem;
+}
+footer h3 {
+  letter-spacing: 0.75rem;
+}
+
+
+/* Medias Queries*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .sectionhero .boxcontent h1 {
+    font-size: 3.125rem;
+    margin-top: 4.375rem;
+  }
+  .section2 h1 {
+    white-space: pre-line;
+  }
+}

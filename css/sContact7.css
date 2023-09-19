@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Montserrat:wght@200;300&family=Mulish&family=Roboto:ital,wght@1,300&display=swap");
+/*voy a declarar variables de colores*/
+:root {
+  --colorrojorosado: #a0344e;
+  --colorrosado: #d7909b;
+  --colorazul: #0d3050;
+  --colorbeigeclaro: #ddd4d3d7;
+  --colorverdeclaro: #c8d7ca;
+  --colorverdeoscuro: #8cac90;
+}
+
+* {
+    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+/*secciones*/
+
+.sectionhero {
+  background-image: url("../img/ubicacion.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50rem;
+}
+
+.sectionhero .boxcontent h1 {
+  font-size: 4.1875rem;
+  font-weight: 800;
+  margin-bottom: 1.875rem;
+  color: var(--colorrojorosado);
+  margin-top: 25rem;
+  letter-spacing: 0.125rem;
+  padding-bottom: 10%;
+  margin-right: 60rem;
+}
+
+.section1 {
+  background-color: #ddd4d3d7;
+}
+.nav-link {
+  color: #a0344e;
+  font-size: 1.25rem;
+}
+
+.formulario h2 {
+  color: var(--colorrojorosado)
+}
+.formulario .p {
+  color: var(--colorrojorosado)
+}
+.formulario .boton  .borrar, 
+.formulario .boton  .enviar {
+  color: var(--colorrojorosado);
+  border: 0.0625rem;
+  background-color: var(--colorbeigeclaro);
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.3125rem;
+  margin-right: 2%;
+}
+
+.section5 {
+  background-color: #f4f1f0;
+  padding-top: 0.625rem;
+  
+}
+
+.section5 h2 {
+  color: #a0344e;
+ 
+}
+
+
+/*whatsapp*/
+.whatsapp {
+  position: fixed;
+  bottom: 0.0675rem;
+  left: 1rem;
+  width: 3.625rem;
+  height: 6.3125rem;
+}
+
+.botonScrollTop {
+  /*fija el boton*/
+  position: fixed;
+  height: 2.8125rem;
+  width: 2.625rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  text-align: center;
+  line-height: 2.8125rem;
+  color:var(--colorrojorosado);
+  font-size: 1.5625rem;
+  border-radius: 0.3125rem;
+  background-color: var(--colorbeigeclaro);
+}
+
+.iconMe {
+  position: fixed;
+  height: 6.8125rem;
+  width: 2.625rem;
+  left: 1rem;
+  bottom: 4rem;
+  text-align: center;
+  line-height: 2.8125rem;
+
+}
+
+textarea {
+resize: none;
+}
+
+
+footer {
+  background-color: #000;
+}
+footer p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding-top: 0.9375rem;
+  padding-bottom: 1.5625rem;
+}
+footer h3 {
+  letter-spacing: 0.75rem;
+}
+
+/* Medias Queries*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .sectionhero .boxcontent h1 {
+    font-size: 2.1rem;
+    margin-top: 6.675rem;
+  }
+ 
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sectionhero .boxcontent h1 {
+    font-size: 4.1rem;
+    margin-top: 10.675rem;
+}
+
+
+}

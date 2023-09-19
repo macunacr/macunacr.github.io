@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Montserrat:wght@200;300&family=Mulish&family=Roboto:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/*secciones*/
+
+.sectionhero {
+  background-image: url("../imgservicios/banner.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 46.875rem;
+}
+
+.sectionhero .boxcontent h1 {
+  font-size: 4.0625rem;
+  font-weight: 600;
+  margin-bottom: 1.875rem;
+  color: #a0344e;
+  margin-top: 5%;
+  letter-spacing: 0.75rem;
+  padding-bottom: 10%;
+}
+
+/*Boton del hero*/
+.sectionhero .boxcontent a {
+  text-align: center;
+  padding: 0.9375rem 1.875rem;
+  background-color: #ddd4d3d7;
+  border: 0.0625rem solid #fff;
+  border-radius: 0.3125rem;
+  font-size: 1.25rem;
+  color: #a0344e;
+  text-decoration: none;
+}
+
+.sectionhero .boxcontent a:hover {
+  background-color: #c8d7ca;
+  color: #fff;
+}
+
+.sectionhero .boxcontent a:hover .icon {
+  background-color: #d7909b;
+  border-radius: 3.125rem;
+  padding: 0.3125rem;
+  color: #fff;
+  margin-left: 0.625rem;
+  transform: rotate(90deg);
+  transition: 0.9s ease-in-out;
+}
+
+.sectionhero .boxcontent .icon {
+  background-color: #d7909b;
+  border-radius: 3.125rem;
+  padding: 0.3125rem;
+  color: #fff;
+  margin-left: 0.625rem;
+}
+
+
+.section1 {
+  background-color: #ddd4d3d7;
+}
+
+.nav-link {
+  color: #a0344e;
+  font-size: 1.25rem;
+}
+
+.seccionhero {
+  background-image: url("../img/banner.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 15.625rem;
+}
+
+.section2 p {
+  padding-top: 1.5625rem;
+  text-align: justify;
+
+}
+
+.section2.row .sectioncards {
+  height: 100%;
+}
+
+.section2 .sectioncards p {
+  text-align: center;
+}
+
+
+
+.section2 h2 {
+  color: #a0344e;
+  font-size: 1.875rem;
+  text-align: center;
+}
+
+.section2 .sectioncards .btn-primary,
+.section2 .sectioncards .btn-close,
+.section2 .sectioncards .btn-secondary {
+  font-size: 0.9375rem;
+  font-weight: 300;
+  padding: 0.9375rem 1.75rem;
+  border-radius: 0.3125rem;
+  text-decoration: none;
+  border: 0.0625rem solid #d7909b;
+  color: #8cac90;
+  transition: 0.8s ease-in-out;
+  text-align: center;
+  margin: 0 2.1875rem;
+  margin-top: 5%;
+}
+
+.section2 .sectioncards .btn-primary,
+.section2 .sectioncards .btn-close,
+.section2 .sectioncards .btn-secondary,
+.section2 .row a {
+  color: #a0344e;
+  border: 0;
+  background-color: #c8d7ca;
+}
+
+.section2 .row a:hover {
+  color: #a0344e;
+  border: 0;
+  background-color: #ddd4d3d7;
+}
+
+.section2 .row a:hover .icon {
+  color: #d7909b;
+
+  transform: rotate(90deg);
+}
+
+.section2 h5 {
+  color: #a0344e;
+  font-size: 1.875rem;
+  text-align: center;
+}
+.section2 .sectioncards .rostro p {
+ padding-bottom: 5.55rem;
+}
+.section2 .sectioncards .cuello p {
+  padding-bottom: 1rem;
+ }
+
+ .section2 .sectioncards .cuerpo p {
+  padding-bottom: 4rem;
+ }
+ .section2 .sectioncards .gotas p {
+  padding-bottom: 0.75rem;
+ }
+
+/*Fin de botones de cards */
+
+.section3 {
+  background-image: url("../imgservicios/tapiz.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 15.625rem;
+}
+
+.section3 h2 {
+  color: #a0344e;
+  font-weight: bold;
+  font-size: 3.4375rem;
+  padding-top: 2.8125rem;
+  font-weight: 600;
+}
+
+.section4 h2 {
+  padding-bottom: 0.625rem;
+  font-size: 2.1875rem;
+  color: #a0344e;
+}
+
+.section4 h3 {
+  padding-bottom: 0.625rem;
+  font-size: 1.5625rem;
+}
+
+.section4 hr {
+  color: #a0344e;
+}
+
+.section4 .container .row {
+  height: 100%;
+}
+
+.section4 .container p {
+  text-align: justify;
+}
+
+
+/*Botones section4*/
+
+.section4 .row a {
+  background-color: #8cac90;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.9375rem;
+  border-radius: 0.3125rem;
+  margin-top: 0.9375rem;
+  transition: 0.8s ease-out;
+}
+
+.section4 .row .icon {
+  margin-left: 0.625rem;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.section4 .row a:hover {
+  color: #a0344e;
+  border: 0;
+  background-color: #ddd4d3d7;
+}
+
+
+/*SectionAccordion Ubicacion y Formulario*/
+
+.sectionAccordion .formulario .row {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: #ebe9e9d7;
+}
+
+.formulario .container h2 {
+  color: #a0344e;
+  font-size: 1.25rem;
+}
+
+.formulario .row p {
+  font-size: 0.9375rem;
+  text-align: center;
+}
+
+.formulario .boton .enviar {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.3125rem;
+  text-decoration: none;
+  border: 0.0625rem solid #d7909b;
+  color: #8cac90;
+  transition: 0.8s ease-in-out;
+  text-align: center;
+  margin-right: 2.1875rem;
+  margin-bottom: 5%;
+}
+
+.formulario .boton a:hover .enviar {
+  color: #a0344e;
+  border: 0;
+  background-color: #ddd4d3d7;
+}
+
+.formulario .boton .borrar {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.3125rem;
+  text-decoration: none;
+  border: 0.0625rem solid #d7909b;
+  color: #8cac90;
+  text-align: center;
+  margin-right: 2.1875rem;
+}
+
+.formulario .boton .enviar {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.3125rem;
+  text-decoration: none;
+  border: 0.0625rem solid #d7909b;
+  color: #8cac90;
+  text-align: center;
+  margin-right: 2.1875rem;
+}
+
+.formulario .container {
+  border-color: #a0344e;
+}
+
+textarea {
+  resize: none;
+  }
+/*Boton Modal de promocion*/
+
+.sectionModal .btn {
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.0625rem;
+  padding: 0.875rem 2rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  background: #d7909b;
+  margin-top: 1.25rem;
+  margin-left: 1.25rem;
+  text-align: center;
+  border-color: #fff;
+
+}
+
+/*no me sirvio la transicion de las promociones*/
+.sectionModal .btn a:hover {
+  color: #a0344e;
+  border: 0;
+  background-color: #ddd4d3d7;
+}
+
+.section5 {
+  background-color: #000;
+}
+
+.fondo1 {
+  background-color: #ebe9e9d7;
+}
+
+/*whatsapp*/
+.whatsapp {
+  position: fixed;
+  bottom: 0.0675rem;
+  left: 1rem;
+  width: 3.625rem;
+  height: 6.3125rem;
+}
+
+/*Boton Scrolltop*/
+.botonScrollTop {
+
+  position: fixed;
+  height: 2.8125rem;
+  width: 2.625rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  text-align: center;
+  line-height: 2.8125rem;
+  color: #fff;
+  font-size: 1.5625rem;
+  border-radius: 0.3125rem;
+  background-color: #a0344e;
+}
+
+footer {
+  background-color: #000;
+}
+
+footer p {
+  color: #ddd4d3d7;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding-top: 0.9375rem;
+}
+
+footer h3 {
+  letter-spacing: 0.75rem;
+}
+
+
+
+/* Medias Queries*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .sectionhero .boxcontent h1 {
+    font-size: 3.4375rem;
+    white-space: pre-line;
+    letter-spacing: 0;
+  }
+
+  .sectionhero .boxcontent h1 {
+    white-space: nowroap;
+  }
+
+  .sectioncards .p {
+    text-align: center;
+  }
+
+  .sectioncards .card-text {
+    text-align: center;
+  }
+
+  .section3 h2 {
+    font-size: 2.5rem;
+    white-space: pre-line;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sectionhero .boxcontent h1 {
+
+    letter-spacing: 0;
+  }
+
+}
+
+.sectioncards .p {
+  text-align: center;
+}
+
+.sectioncards .card-text {
+  text-align: center;
+}
+
+.section3 h2 {
+  font-size: 3.75rem;
+  white-space: pre-line;
+}
+
+.cards .row {
+  height: 100%;
+}
